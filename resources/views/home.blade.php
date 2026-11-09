@@ -101,7 +101,7 @@
             </form>
         @endauth
 
-        {{-- Isi timeline --}}
+       
         @forelse ($feed as $item)
             <article class="post">
                 <div class="av">{{ strtoupper(mb_substr($item->name, 0, 1)) }}</div>
